@@ -33,7 +33,7 @@ app.layout = html.Div([
                 'textAlign': 'center',
                 'color': colors['text1']
             }),
-    html.Hr(style={'backgound-color': colors['background']}),
+    html.Hr(style={'borderWidth': "2.5px", "borderColor": "#BB9CC0", 'opacity':'unset'}),
     
     html.Div([
         html.Div([
@@ -44,7 +44,7 @@ app.layout = html.Div([
         html.Br(),
         
         html.H2("Patient Details", style={'textAlign':"center", 'color': colors['text1'],}),
-        html.Hr(style={'backgound-color': colors['background']}),
+        html.Hr(style={'borderWidth': "0.5px", "borderColor": "#BB9CC0"}),
 
         html.Br(),
         html.Div([
@@ -82,7 +82,7 @@ app.layout = html.Div([
         'width':'25vw',
         'backgroundColor': colors['background'],
         'padding':'50px 20px',
-        'border-right':'2px dotted #401F71',
+        'border-right':'3px solid #BB9CC0',
         # 'border-top':'2px dotted black',
         }),
 
